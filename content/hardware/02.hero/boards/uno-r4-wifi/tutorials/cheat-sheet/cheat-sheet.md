@@ -383,9 +383,9 @@ To connect I2C devices you will need to include the [Wire](https://www.arduino.c
 Inside `void setup()` you need to initialize the library, and initialize the I2C port you want to use.
 
 ```arduino
-Wire.begin() //SDA & SDL
-Wire1.begin(); //SDA1 & SDL1
-Wire2.begin(); //SDA2 & SDL2
+Wire.begin() //SDA & SCL
+Wire1.begin(); //SDA1 & SCL1
+Wire2.begin(); //SDA2 & SCL2
 ```
 
 And to write something to a device connected via I2C, we can use the following commands:
